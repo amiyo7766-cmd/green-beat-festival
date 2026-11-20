@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FOOD &amp; MARKET フード・マーケット | GREEN BEAT FESTIVAL 2027</title>
+<meta name="description" content="GREEN BEAT FESTIVAL 2027 のフード＆マーケット出店一覧。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Oswald:wght@500;700&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <img class="bg-sky" data-speed="0.06" src="images/bg-sky.jpg" alt="">
+  <img class="bg-field" data-speed="0.14" src="images/bg.png" alt="">
+</div>
+
+<header class="hd">
+  <a href="index.html#top" class="logo"><img src="images/logo.png" alt="GREEN BEAT FESTIVAL"></a>
+  <button class="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
+  <nav id="gnav" class="gnav" aria-label="メインメニュー">
+    <ul>
+      <li><a href="index.html#top">TOP</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="index.html#lineup">LINEUP</a></li>
+      <li><a href="index.html#stage">STAGE</a></li>
+      <li><a href="food.html" class="cur" aria-current="page">FOOD &amp; MARKET</a></li>
+      <li><a href="index.html#access">ACCESS</a></li>
+      <li><a href="index.html#ticket">TICKET</a></li>
+      <li><a href="index.html#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<ul class="sns" aria-label="SNS">
+  <li><a href="#" aria-label="X">X</a></li>
+  <li><a href="#" aria-label="Instagram">IG</a></li>
+  <li><a href="#" aria-label="YouTube">YT</a></li>
+  <li><a href="#" aria-label="TikTok">TT</a></li>
+  <li><a href="#top" aria-label="ページ上部へ">▲</a></li>
+</ul>
+
+<main id="top" class="page">
+  <div class="page-hd">
+    <nav class="crumb" aria-label="パンくずリスト"><a href="index.html">TOP</a> ＞ FOOD &amp; MARKET</nav>
+    <h1 aria-label="FOOD & MARKET"><span class="mt" data-split>FOOD &amp; MARKET</span></h1>
+    <p>フード・マーケット</p>
+  </div>
+
+  <div class="wrap">
+    <section class="panel col">
+      <p class="lead">フェス飯からクラフトビール、ハンドメイド雑貨まで、全国各地のこだわりショップがGREEN PARKに大集合！</p>
+
+      <div class="filters" role="group" aria-label="カテゴリで絞り込み">
+        <button type="button" data-filter="all" aria-pressed="true">ALL</button>
+        <button type="button" data-filter="FOOD" aria-pressed="false">FOOD</button>
+        <button type="button" data-filter="DRINK" aria-pressed="false">DRINK</button>
+        <button type="button" data-filter="MARKET" aria-pressed="false">MARKET</button>
+        <button type="button" data-filter="GOODS" aria-pressed="false">GOODS</button>
+      </div>
+
+      <!-- ショップを増やすときは <article> を1つコピーして data-cat・data-title・data-body・画像・テキストを書き換え -->
+      <div class="shopgrid">
+        <article class="shop" data-cat="FOOD">
+          <button type="button" data-modal data-title="SUNRISE BURGER（エリアA-01）" data-body="【看板メニュー】ダブルチーズ・スモークバーガー ¥1,300 ／ 炭火焼きパティと自家製ベーコンの本格グルメバーガー。ボリューム満点でライブ前のエネルギーチャージに最適！">
+            <div class="shop-img">
+              <img src="images/food-1.jpg" alt="SUNRISE BURGER">
+              <span class="cat c-ticket">FOOD</span>
+            </div>
+            <div class="shop-txt">
+              <span class="area">AREA A-01</span>
+              <h2>SUNRISE BURGER</h2>
+              <p>炭火焼きパティと自家製ベーコンの本格グルメバーガー。</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="shop" data-cat="FOOD">
+          <button type="button" data-modal data-title="SPICE FOREST CURRY（エリアA-02）" data-body="【看板メニュー】2種あいがけスパイスカレー ¥1,200 ／ 15種類のスパイスを独自ブレンド。夏野菜たっぷりのチキンキーマとココナッツ海老カレーのあいがけが大人気。">
+            <div class="shop-img">
+              <img src="images/food-2.jpg" alt="SPICE FOREST CURRY">
+              <span class="cat c-ticket">FOOD</span>
+            </div>
+            <div class="shop-txt">
+              <span class="area">AREA A-02</span>
+              <h2>SPICE FOREST CURRY</h2>
+              <p>15種のスパイスが香る、夏野菜たっぷりのあいがけカレー。</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="shop" data-cat="DRINK">
+          <button type="button" data-modal data-title="GREEN BREWERY（エリアB-01）" data-body="【看板メニュー】森のシトラスIPA ¥800 ／ 地元ブルワリー直送のクラフトビール。柑橘系の爽やかなホップの香りで、青空の下での乾杯にぴったり！ソフトドリンクもご用意。">
+            <div class="shop-img">
+              <img src="images/food-3.jpg" alt="GREEN BREWERY">
+              <span class="cat c-lineup">DRINK</span>
+            </div>
+            <div class="shop-txt">
+              <span class="area">AREA B-01</span>
+              <h2>GREEN BREWERY</h2>
+              <p>ブルワリー直送！爽やかな柑橘香るクラフトビール。</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="shop" data-cat="DRINK">
+          <button type="button" data-modal data-title="TROPICAL SMOOTHIE STAND（エリアB-02）" data-body="【看板メニュー】丸ごとマンゴー＆パインスムージー ¥750 ／ 完熟フルーツをその場でミキサーにかける濃厚スムージー。ひんやりクールダウンにどうぞ。">
+            <div class="shop-img">
+              <img src="images/food-4.jpg" alt="TROPICAL SMOOTHIE STAND">
+              <span class="cat c-lineup">DRINK</span>
+            </div>
+            <div class="shop-txt">
+              <span class="area">AREA B-02</span>
+              <h2>TROPICAL SMOOTHIE STAND</h2>
+              <p>完熟南国フルーツを贅沢に使った濃厚フローズンスムージー。</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="shop" data-cat="MARKET">
+          <button type="button" data-modal data-title="WOOD &amp; CANVAS CRAFT（エリアC-01）" data-body="【取扱アイテム】アウトドアチェア・パラコードストラップ・木製カトラリー ／ キャンプやフェスで活躍する一点物のハンドメイドギア＆雑貨を展開。">
+            <div class="shop-img">
+              <img src="images/market-1.jpg" alt="WOOD & CANVAS CRAFT">
+              <span class="cat c-goods">MARKET</span>
+            </div>
+            <div class="shop-txt">
+              <span class="area">AREA C-01</span>
+              <h2>WOOD &amp; CANVAS CRAFT</h2>
+              <p>アウトドアやフェスで使えるハンドメイドギア＆雑貨。</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="shop" data-cat="GOODS">
+          <button type="button" data-modal data-title="OFFICIAL GOODS SHOP（エリアC-02）" data-body="【取扱アイテム】フェス限定Tシャツ ¥4,000 / マフラータオル ¥2,000 / サコッシュ ¥2,500 ／ 2027年限定デザインの公式オフィシャルグッズ販売ブースです。">
+            <div class="shop-img">
+              <img src="images/market-2.jpg" alt="OFFICIAL GOODS SHOP">
+              <span class="cat c-info">GOODS</span>
+            </div>
+            <div class="shop-txt">
+              <span class="area">AREA C-02</span>
+              <h2>OFFICIAL GOODS SHOP</h2>
+              <p>2027限定Tシャツやタオルなど公式オフィシャルグッズ。</p>
+            </div>
+          </button>
+        </article>
+      </div>
+
+      <div class="guide-box">
+        <h3>ご利用案内</h3>
+        <ul>
+          <li>営業時間：8.21 SAT 10:00〜21:00 ／ 8.22 SUN 10:00〜20:00</li>
+          <li>全店舗で現金のほか、各種クレジットカード・交通系IC・QRコード決済がご利用いただけます。</li>
+          <li>ゴミの分別回収およびマイボトル・マイカップの持参にご協力をお願いいたします。</li>
+        </ul>
+      </div>
+
+      <a class="pill back" href="index.html">‹ TOPへ戻る</a>
+    </section>
+  </div>
+</main>
+
+<footer class="ft">
+  <img class="ft-bg" data-speed="-0.04" src="images/stage-view.jpg" alt="">
+  <div class="ft-in">
+    <img class="ft-logo" src="images/logo.png" alt="GREEN BEAT FESTIVAL">
+    <p class="tagline">Feel the Music.<br>Feel the Nature.</p>
+    <nav aria-label="フッターメニュー"><a href="index.html#top">TOP</a><a href="news.html">NEWS</a><a href="index.html#lineup">LINEUP</a><a href="index.html#stage">STAGE</a><a href="food.html">FOOD &amp; MARKET</a><a href="index.html#access">ACCESS</a><a href="index.html#ticket">TICKET</a><a href="index.html#contact">CONTACT</a></nav>
+    <p class="copy">© 2027 GREEN BEAT FESTIVAL. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<dialog id="modal" aria-labelledby="modal-title">
+  <button class="x" type="button" aria-label="閉じる">×</button>
+  <h3 id="modal-title"></h3>
+  <p class="mb"></p>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>

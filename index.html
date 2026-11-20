@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GREEN BEAT FESTIVAL 2027 | 公式サイト</title>
+<meta name="description" content="2027.8.21 SAT - 22 SUN 野外特設ステージで開催。Feel the Music. Feel the Nature.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Oswald:wght@500;700&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 画像は src を差し替えるだけでOK（images/ フォルダ内） -->
+<div class="bg" aria-hidden="true">
+  <img class="bg-sky" data-speed="0.06" src="images/bg-sky.jpg" alt="">
+  <img class="bg-field" data-speed="0.14" src="images/bg.png" alt="">
+</div>
+
+<!-- ② ハンバーガーメニュー -->
+<header class="hd">
+  <a href="#top" class="logo"><img src="images/logo.png" alt="GREEN BEAT FESTIVAL"></a>
+  <button class="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
+  <nav id="gnav" class="gnav" aria-label="メインメニュー">
+    <ul>
+      <li><a href="#top" class="cur">TOP</a></li>
+      <li><a href="#news">NEWS</a></li>
+      <li><a href="#lineup">LINEUP</a></li>
+      <li><a href="stage.html">STAGE</a></li>
+      <li><a href="food.html">FOOD &amp; MARKET</a></li>
+      <li><a href="access.html">ACCESS</a></li>
+      <li><a href="ticket.html">TICKET</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<ul class="sns" aria-label="SNS">
+  <li><a href="#" aria-label="X">X</a></li>
+  <li><a href="#" aria-label="Instagram">IG</a></li>
+  <li><a href="#" aria-label="YouTube">YT</a></li>
+  <li><a href="#" aria-label="TikTok">TT</a></li>
+  <li><a href="#top" aria-label="ページ上部へ">▲</a></li>
+</ul>
+
+<main id="top">
+  <!-- ① モーションタイポグラフィ + ③ パララックス -->
+  <section class="hero">
+    <img class="balloon b1" data-speed="-0.18" src="images/balloon-1.png" alt="">
+    <img class="balloon b2" data-speed="-0.28" src="images/balloon-2.png" alt="">
+    <h1 aria-label="GREEN BEAT FESTIVAL">
+      <span class="mt" data-split>GREEN BEAT</span>
+      <span class="mt" data-split>FESTIVAL</span>
+    </h1>
+    <p class="tagline">Feel the Music. Feel the Nature.</p>
+    <p class="date"><strong>2027.8.21 <small>SAT</small> - 22 <small>SUN</small></strong><span>GREEN PARK　野外特設ステージ</span></p>
+
+    <!-- ④ スライドショー -->
+    <div class="slider" role="region" aria-roledescription="carousel" aria-label="注目のステージ">
+      <button class="arrow prev" type="button" aria-label="前のスライド">‹</button>
+      <div class="slides">
+        <article class="slide">
+          <img src="images/slide-1.jpg" alt="">
+          <div class="cap"><span class="chip">TOKYO STAGE</span><p class="big">8.21 <small>SAT</small></p><p>熱い夏を、東京で。</p>
+            <button class="pill" type="button" data-modal data-title="TOKYO STAGE 8.21 SAT" data-body="東京会場のメインステージ。夕暮れから夜にかけて、豪華アーティストが次々に登場します。（ここに詳細テキストを入れてください）">詳細を見る ›</button></div>
+        </article>
+        <article class="slide">
+          <img src="images/slide-2.jpg" alt="">
+          <div class="cap"><span class="chip">GREEN STAGE</span><p class="big">8.22 <small>SUN</small></p><p>風と緑に包まれて。</p>
+            <button class="pill" type="button" data-modal data-title="GREEN STAGE 8.22 SUN" data-body="木々に囲まれた自然派ステージ。アコースティックからエレクトロまで幅広く展開します。（詳細テキスト）">詳細を見る ›</button></div>
+        </article>
+        <article class="slide">
+          <img src="images/slide-3.jpg" alt="">
+          <div class="cap"><span class="chip">ORANGE STAGE</span><p class="big">8.22 <small>SUN</small></p><p>夕日と、最高の一曲を。</p>
+            <button class="pill" type="button" data-modal data-title="ORANGE STAGE 8.22 SUN" data-body="サンセットタイムに合わせたクライマックスステージ。（詳細テキスト）">詳細を見る ›</button></div>
+        </article>
+      </div>
+      <button class="arrow next" type="button" aria-label="次のスライド">›</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <!-- ⑤ モーダルウィンドウ（ニュース・ラインナップ共通） -->
+    <section class="panel news" id="news">
+      <h2><span class="mt" data-split>NEWS</span><small>最新情報</small></h2>
+      <ul class="newslist">
+        <li><button type="button" data-modal data-title="第2弾アーティスト発表！豪華ラインナップが決定！" data-body="2027.07.20　第2弾アーティストを発表しました。（本文を入れてください）"><time>2027.07.20</time>第2弾アーティスト発表！豪華ラインナップが決定！</button></li>
+        <li><button type="button" data-modal data-title="チケット一般発売スタート！" data-body="2027.07.10　チケットの一般発売を開始しました。（本文を入れてください）"><time>2027.07.10</time>チケット一般発売スタート！</button></li>
+        <li><button type="button" data-modal data-title="公式グッズの先行販売がスタートしました！" data-body="2027.06.25　公式グッズの先行販売を開始しました。（本文を入れてください）"><time>2027.06.25</time>公式グッズの先行販売がスタートしました！</button></li>
+      </ul>
+      <a class="pill" href="news.html">一覧を見る ›</a>
+    </section>
+
+    <section class="panel lineup" id="lineup">
+      <h2><span class="mt" data-split>LINEUP</span><small>出演アーティスト</small></h2>
+      <div class="cards">
+        <button class="card green" type="button" data-modal data-title="GREEN STAGE" data-body="The Sunrise / Midori / and more...（出演者リストを入れてください）">
+          <img src="images/stage-green.jpg" alt=""><span class="label">GREEN STAGE</span><span class="names">The Sunrise / Midori / <small>and more...</small></span></button>
+        <button class="card orange" type="button" data-modal data-title="ORANGE STAGE" data-body="Rainbow Notes / THE SKY / and more...（出演者リストを入れてください）">
+          <img src="images/stage-orange.jpg" alt=""><span class="label">ORANGE STAGE</span><span class="names">Rainbow Notes / THE SKY / <small>and more...</small></span></button>
+      </div>
+    </section>
+
+    <section class="panel spotify">
+      <h2><span class="mt" data-split>SPOTIFY</span><small>フェス公式プレイリスト</small></h2>
+      <p class="lead">この夏を彩る、<br>最高のプレイリストを。<a class="pill" href="https://open.spotify.com/" target="_blank" rel="noopener">今すぐ聴く ›</a></p>
+      <div class="player">
+        <img src="images/album.jpg" alt="">
+        <div><b>Green Beat Festival 2027</b><span>Official Playlist</span><i class="bar"></i></div>
+        <button class="play" type="button" aria-pressed="false" aria-label="再生"><span></span></button>
+      </div>
+    </section>
+
+    <section class="panel sponsors">
+      <h2><span class="mt" data-split>SPONSORS</span><small>協賛企業</small></h2>
+      <ul>
+        <li><img src="images/sponsor-1.png" alt="協賛企業1"></li>
+        <li><img src="images/sponsor-2.png" alt="協賛企業2"></li>
+        <li><img src="images/sponsor-3.png" alt="協賛企業3"></li>
+        <li><img src="images/sponsor-4.png" alt="協賛企業4"></li>
+        <li><img src="images/sponsor-5.png" alt="協賛企業5"></li>
+      </ul>
+    </section>
+
+    <!-- ⑥ アコーディオン（メニューのハッシュで該当項目が開く） -->
+    <section class="panel info col" id="info">
+      <h2><span class="mt" data-split>INFO</span><small>会場・チケットのご案内</small></h2>
+      <div class="acc">
+        <div class="acc-item" id="stage"><button class="acc-btn" type="button" aria-expanded="false">STAGE　ステージ紹介</button>
+          <div class="acc-body"><p>STAGE A／B／C の3ステージ構成。タイムテーブルは決定次第公開します。（本文）</p></div></div>
+        <div class="acc-item" id="food"><button class="acc-btn" type="button" aria-expanded="false">FOOD &amp; MARKET　フード・マーケット</button>
+          <div class="acc-body"><p>全国のグルメ・クラフト・グッズが集まるマーケットエリアです。（本文）</p></div></div>
+        <div class="acc-item" id="access"><button class="acc-btn" type="button" aria-expanded="false">ACCESS　アクセス</button>
+          <div class="acc-body"><p>GREEN PARK 野外特設ステージ。最寄り駅からシャトルバスを運行予定です。（本文）</p></div></div>
+        <div class="acc-item" id="ticket"><button class="acc-btn" type="button" aria-expanded="false">TICKET　チケット</button>
+          <div class="acc-body"><p>1日券・2日券をご用意。販売ページは公式サイトからご確認ください。（本文）</p></div></div>
+        <div class="acc-item" id="contact"><button class="acc-btn" type="button" aria-expanded="false">CONTACT　お問い合わせ</button>
+          <div class="acc-body"><p>お問い合わせは公式サイトのフォームよりお願いします。（本文）</p></div></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="ft">
+  <img class="ft-bg" data-speed="-0.04" src="images/stage-view.jpg" alt="">
+  <div class="ft-in">
+    <img class="ft-logo" src="images/logo.png" alt="GREEN BEAT FESTIVAL">
+    <p class="tagline">Feel the Music.<br>Feel the Nature.</p>
+    <nav aria-label="フッターメニュー"><a href="#top">TOP</a><a href="#news">NEWS</a><a href="#lineup">LINEUP</a><a href="stage.html">STAGE</a><a href="#food">FOOD &amp; MARKET</a><a href="access.html">ACCESS</a><a href="ticket.html">TICKET</a><a href="contact.html">CONTACT</a></nav>
+    <p class="copy">© 2027 GREEN BEAT FESTIVAL. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<dialog id="modal" aria-labelledby="modal-title">
+  <button class="x" type="button" aria-label="閉じる">×</button>
+  <h3 id="modal-title"></h3>
+  <p class="mb"></p>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
